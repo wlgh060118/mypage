@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20409 배지호</title> 
+    <style>
+        body{
+            background-color: rgb(136, 164, 201);
+            background-image: ;
+        }
+        .profile{
+            width:100px ;
+            height: 100px;
+            background-color: rgb(49, 82, 172);
+            border-radius: 100%;
+            border: 5px solid blue;
+            background-image: url(profile.png);
+            background-position: center;
+            background-size: cover;
+        }    .main {
+        color: rgb(18, 18, 170);
+        font-size: 25px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .sub {
+        color: navy;
+        font-size: 15px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .wrap {
+        width: 300px;
+        margin: 30px auto 0px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+                
+    }
+    .wrap>button {
+        width: 300px;
+        height: 50px;
+        /* 버튼 배경 색, 버튼 테두리, 둥글기 */
+        background-color: white;
+        border: none;
+        border-radius: 8px;
+        /* 버튼간격 띄우기 */
+        margin-bottom: 20px;
+        /* 글자의 크기와 굵기, 색깔*/
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(15, 15, 5);
+        /* 앞의 3px 3px는 오른쪽 밑으로 얼마나 그림자 지게 할거냐, 5px는 꼬리의 길이, 0px는 꼬리의 선명도 */
+        box-shadow: 3px 3px 5px 0px rgb(42, 14, 168);
+    }
+    .wrap>button:hover {
+        background-color: rgb(174, 209, 90);
+        color: rgb(200, 225, 98);
+    }
+                
+                
+
+    </style>
+    
+</head>
+<body>
+<div class="wrap">
+    <div class="profile"></div>
+    <h1 class="main">배지호</h1>
+    <p class="sub"> 지호의 프로필</p>
+    <button onclick="window.open('./myjob.html', '_blank')">나의 꿈 소개</button>
+    <button>나의 책 소개</button>onclick="window.open('./mybook.html', '_blank')"
+    <button>신문 방송학과 추천도서</button>
+    <button>온라인 서점링크</button>onclick="window.open('./myjob.html', '_blank')"
+
+
+
+
+</div>
+</body>
+</html>
